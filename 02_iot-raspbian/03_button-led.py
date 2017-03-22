@@ -34,8 +34,8 @@ import time
 from grovepi import *
 
 # Connect the LED to digital port D5
-button = 4
-led = 5
+button = 3
+led = 4
 
 pinMode(button, "INPUT")
 pinMode(led,"OUTPUT")
