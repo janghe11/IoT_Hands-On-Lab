@@ -38,15 +38,12 @@ from grovepi import *
 # SIG,NC,VCC,GND
 
 ultrasonic_ranger = 4
-Relay_pin = 2
-
-pinMode(Relay_pin,"OUTPUT")
 
 while True:
     try:
         # Read distance value from Ultrasonic
         distant = ultrasonicRead(ultrasonic_ranger)
-        print(distant + 'cm')
+        print "%dcm" % distant
     except TypeError:
         print("Error")
     except IOError:
