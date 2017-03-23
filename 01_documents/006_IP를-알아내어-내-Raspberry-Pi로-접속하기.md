@@ -19,3 +19,7 @@ Raspberry Pi는 콘솔로 연결하여 사용하기보다, 원격으로 접속�
 ## Filezilla로 파일 송수신하기
 Raspberry Pi에 있는 파일을 다운로드 하거나 업로드 할 경우, Filezilla를 통해 접속하여 전송할 수 있습니다.<br />
 단, 접속한 유저와 해당 폴더의 권한이 다를 경우, 접근이 허용되지 않습니다.
+
+## 초기 설정하기
+* `sudo raspi-config`를 입력합니다.
+* `cd iot-raspbian`으로 이동한 다음 `sudo sh init.sh`를 실행합니다.
