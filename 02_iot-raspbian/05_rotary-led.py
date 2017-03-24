@@ -36,7 +36,7 @@ import grovepi
 potentiometer = 2
 
 # Connect the LED to digital port D5
-led = 5
+led = 4
 
 grovepi.pinMode(led,"OUTPUT")
 time.sleep(1)
