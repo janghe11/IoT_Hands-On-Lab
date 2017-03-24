@@ -52,19 +52,19 @@ print ("LED 켜고 끄기를 시작합니다. 프로그램을 종료하시려면
 while True:
     try:
         #Blink the LED
-        digitalWrite(led_red,0)		# Send HIGH to switch on LED
-        digitalWrite(led_blue, 1)
-        digitalWrite(led_green, 1)
-        time.sleep(1)
-
-        digitalWrite(led_red, 1)  # Send HIGH to switch on LED
+        digitalWrite(led_red,1)		# Send HIGH to switch on LED
         digitalWrite(led_blue, 0)
-        digitalWrite(led_green, 1)
+        digitalWrite(led_green, 0)
         time.sleep(1)
 
-        digitalWrite(led_red, 1)  # Send HIGH to switch on LED
+        digitalWrite(led_red, 0)  # Send HIGH to switch on LED
         digitalWrite(led_blue, 1)
         digitalWrite(led_green, 0)
+        time.sleep(1)
+
+        digitalWrite(led_red, 0)  # Send HIGH to switch on LED
+        digitalWrite(led_blue, 0)
+        digitalWrite(led_green, 1)
         time.sleep(1)
 
     except KeyboardInterrupt:	# Turn LED off before stopping
