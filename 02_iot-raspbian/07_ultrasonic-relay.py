@@ -49,10 +49,10 @@ while True:
         print "%dcm" % distant
         if distant <= 10:
             digitalWrite(Relay_pin,1)
-            print("Door Relay on")
+            print('Door Relay on')
         else:
             digitalWrite(Relay_pin,0)
-            print("Door Relay off")
+            print('Door Relay off')
 
     except TypeError:
         print("Error")
