@@ -14,15 +14,17 @@
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_009.png)
 6. 로그인 버튼을 눌러 이전에 생성한 ID와 비밀번호로 로그인 합니다.
 7. 쿼리문 입력란에 아래와 같이 입력하고 실행 버튼을 눌러 테이블을 생성합니다. 오류가 없으면 테이블이 생성된 것입니다.
-   CREATE TABLE [dbo].[SensorData] (<br />
-       [Id]          INT           IDENTITY (1, 1) NOT NULL,<br />
-	   DeviceID	  varchar(20)	NOT NULL,<br />
-       [Temperature] double        NULL,<br />
-       [Humidity]    double        NULL,<br />
-       [Dust]        double        NULL,<br />
-       [RegiDate]    SMALLDATETIME DEFAULT (getdate()) NULL,<br />
-       PRIMARY KEY CLUSTERED ([Id] ASC)<br />
-   );<br />
+~~~
+   CREATE TABLE [dbo].[SensorData] (
+       [Id]          INT           IDENTITY (1, 1) NOT NULL,
+	   DeviceID	  varchar(20)	NOT NULL,
+       [Temperature] double        NULL,
+       [Humidity]    double        NULL,
+       [Dust]        double        NULL,
+       [RegiDate]    SMALLDATETIME DEFAULT (getdate()) NULL,
+       PRIMARY KEY CLUSTERED ([Id] ASC)
+   );
+~~~
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_005.png)
 5. 스트림 분석에서 쿼리를 수정하여 SQL에도 데이터가 입력되도록 설정합니다. 작업 토폴로지에서 쿼리를 선택합니다.
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_006.png)
