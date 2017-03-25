@@ -13,6 +13,7 @@ apt update
 apt -y install vim
 apt -y install node
 apt -y install npm
+apt -y install python-pip
 
 sed -i "s/#dtparam=i2c_arm=on/dtparam=i2c_arm=on/g" /boot/config.txt
 
@@ -20,6 +21,8 @@ npm install -g node-red
 npm install -g node-grovepi
 npm install -g node-red-grovepi-nodes
 npm install -g node-red-contrib-azure-iot-hub
+sleep 2s
+pip install python-twitter
 
 #Mac OS SD 테스트
 change RGB rose gold
