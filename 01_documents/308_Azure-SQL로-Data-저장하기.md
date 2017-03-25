@@ -30,13 +30,15 @@
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_006.png)
 6. 기존 쿼리에 아래 사항을 추가하고 저장합니다.<br />
    입력 데이터를 1분 마다 데이터를 묶어 각 항목 별 평균값을 구하여 테이블에 저장
-   SELECT<br />
-        DeviceID, AVG(temperature)as Temperature, AVG(humidity) as Humidity, AVG(dust) as Dust<br />
-   INTO<br />
-       OUTPUTSQL<br />
-   FROM<br />
-       INPUT<br />
-   GROUP BY DeviceID, TumblingWindow(Minute, 1)<br />
+~~~
+   SELECT
+        DeviceID, AVG(temperature)as Temperature, AVG(humidity) as Humidity, AVG(dust) as Dust
+   INTO
+       OUTPUTSQL
+   FROM
+       INPUT
+   GROUP BY DeviceID, TumblingWindow(Minute, 1)
+~~~
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_007.png)
 7. 상단의 중지 버튼을 누르고 작업 토폴로지에서 출력을 선택하고 위와 같이 입력합니다. 이후 시작 버튼을 눌러 다시 스트림 입출력을 시작합니다.
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/308_Database_008.png)
