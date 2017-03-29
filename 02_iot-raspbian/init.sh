@@ -8,7 +8,7 @@ fi
 
 printf "환영합니다! 처음 설정을 시작하도록 하겠습니다.\n"
 locale-gen ko_KR.UTF-8
-git clone https://github.com/DexterInd/GrovePi.git
+# git clone https://github.com/DexterInd/GrovePi.git
 apt update
 apt -y install vim
 apt -y install node
@@ -27,6 +27,6 @@ pip install python-twitter
 
 reboot
 
-#Mac OS SD 테스트
+# Mac OS SD 테스트
 
-#az iot device create --device-id grovepi --hub-name TaeheeIoTHub --resource-group Taehee_IoT-Test
+# az iot device create --device-id grovepi --hub-name TaeheeIoTHub --resource-group Taehee_IoT-Test
