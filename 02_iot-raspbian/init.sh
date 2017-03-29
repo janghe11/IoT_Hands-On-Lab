@@ -7,8 +7,10 @@ if [[ "$UID" -ne "$ROOT_UID" ]] ; then
 fi
 
 printf "환영합니다! 처음 설정을 시작하도록 하겠습니다.\n"
+
+sed -i "s/#dtparam=i2c_arm=on/dtparam=i2c_arm=on/g" /boot/config.txt
+
 locale-gen ko_KR.UTF-8
-# git clone https://github.com/DexterInd/GrovePi.git
 apt update
 apt -y install vim
 apt -y install node
@@ -16,17 +18,4 @@ apt -y install npm
 apt -y install python-dev
 apt -y install python-pip
 
-sed -i "s/#dtparam=i2c_arm=on/dtparam=i2c_arm=on/g" /boot/config.txt
-
-npm install -g node-red
-npm install -g node-grovepi
-npm install -g node-red-grovepi-nodes
-npm install -g node-red-contrib-azure-iot-hub
-sleep 2s
-pip install python-twitter
-
 reboot
-
-# Mac OS SD 테스트
-
-# az iot device create --device-id grovepi --hub-name TaeheeIoTHub --resource-group Taehee_IoT-Test
