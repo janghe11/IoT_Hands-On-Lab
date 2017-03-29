@@ -13,8 +13,6 @@ sed -i "s/#dtparam=i2c_arm=on/dtparam=i2c_arm=on/g" /boot/config.txt
 locale-gen ko_KR.UTF-8
 apt update
 apt -y install vim
-apt -y install node
-apt -y install npm
 apt -y install python-dev
 apt -y install python-pip
 

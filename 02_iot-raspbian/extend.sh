@@ -8,6 +8,8 @@ fi
 
 printf "추가 확장 설정을 시작하도록 하겠습니다.\n"
 
+apt -y install node
+apt -y install npm
 npm install -g node-red
 npm install -g node-grovepi
 npm install -g node-red-grovepi-nodes
