@@ -16,5 +16,7 @@
   ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/003_Win32DiskImager_004.png)
   7. Write Successful 창이 뜨면 OK를 누르고 안전하게 제거합니다.
   8. Raspberry Pi의 하단에 micro SD를 삽입하고 Lan 케이블을 연결합니다.
-     Lan 케이블을 사용할 수 없는 경우 꼽지 않아도 상관없습니다.
   9. micro USB 충전 케이블을 각각 PC와 Raspberry PI에 연결합니다.
+
+### Mac OS
+![alt tag](https://etcher.io/static/images/product.gif)

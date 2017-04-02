@@ -1,4 +1,6 @@
 # IoT Hub 생성 및 설정하기
+* IoT_Hands-on_vm.ova 파일이 없으신 경우 -> [이 링크](https://docs.microsoft.com/ko-kr/azure/iot-hub/iot-hub-java-java-getstarted#a-namecreate-a-device-identitya장치-id-만들기)를 클릭하여 "장치 ID 만들기" 부분부터 시작하십시오.
+  (해당 링크는 "303_App만들기-01-장치등록-및-Key생성" 부터 "306_App만들기-04-App을-실행하여-IoT-Hub로-메시지-주고받기-확인하기" 내용을 포함합니다.)
 
    ![alt tag](https://github.com/janghe11/IoT_Hands-On-Lab/blob/master/pictures/303_DeviceID_001.png)
 1. 생성한 IoT Hub를 클릭한 뒤 설정 -> 공유 액세스 정책 -> iothubowner -> 공유 액세스 키 에서 연결문자열-기본키 값을 복사합니다.
