@@ -2,6 +2,13 @@
 Link : https://git.io/vS3xh<br />
 4월 1일 IoT Hands On Lab 세미나를 위한 자습서 입니다.
 
+## 목차 안내
+#### Presentation : 
+#### 01_documents : 자습서 내용이 설명되어 있습니다.
+#### 02_iot-raspbian : raspberry pi의 실습 코드가 정리되어 있습니다.
+#### 03_iot-simulator : 장치 없이 실습할 수 있는 코드가 정리되어 있습니다.
+02_iot-raspbian은 img 파일에 내장되어 있으며, 03_iot-simulator는 vm 파일에 내장되어 있습니다.
+
 ## 4월 1일 실습에 참여하지 않고 혼자 하시는 분을 위한 안내
 GrovePi와 기본 설정 된 이미지를 제공해 드릴 수가 없으므로 "202_IP를-알아내어-내-Raspberry-Pi로-접속하기" 부터 "210_DHT-LCD"까지는 따라하실 수 없습니다.<br />
 대신에 개인적으로 실습 해 보실 수 있도록 "101_준비 사항" 부터  "104_Raspberry-Pi-에-SSH로-접속하기" 부분을 수정하였습니다.<br />
