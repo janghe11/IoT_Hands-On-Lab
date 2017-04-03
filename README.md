@@ -3,7 +3,7 @@ Link : https://git.io/vS3xh<br />
 4월 1일 IoT Hands On Lab 세미나를 위한 자습서 입니다.
 
 ## 목차 안내
-#### Presentation : 
+#### Presentation : https://doc.co/k7o8Hv 
 #### 01_documents : 자습서 내용이 설명되어 있습니다.
 #### 02_iot-raspbian : raspberry pi의 실습 코드가 정리되어 있습니다.
 #### 03_iot-simulator : 장치 없이 실습할 수 있는 코드가 정리되어 있습니다.
@@ -22,7 +22,7 @@ https://ask.ubuntu-kr.org 혹은 jang0913@outlook.com 으로 메일주시면 감
 create-device-identity / read-d2c-messages / simulated-device source codes belong to [Microsoft.](https://docs.microsoft.com/ko-kr/azure/iot-hub/iot-hub-java-java-getstarted)  <br />
 Xubuntu beblongs to Xubuntu community.<br />
 Virtualbox belongs to Oracle corporation.<br />
-Modified 02_iot-raspbian source codes from GrovePi for easy education.<br />
+Modified 02_iot-raspbian source codes from [GrovePi](https://github.com/DexterInd/GrovePi)  for easy education.<br />
 Azure IoT course(01_documents) inspired by Youngwook Kim, Microsoft Sr. Technical Evangelist.<br />
-For Visual Studio version, Go to Youngwook Kim's github.<br />
+For Visual Studio version, Go to Youngwook Kim's [github.](https://github.com/KoreaEva/IoT) <br />
 Rest of source codes in ova file are MIT License.
