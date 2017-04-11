@@ -1,28 +1,33 @@
-# IoT_HandsOn
-Link : https://git.io/vS3xh<br />
-4월 1일 IoT Hands On Lab 세미나를 위한 자습서 입니다.
+# Bash 기본 익히기
 
-## 목차 안내
-#### Presentation : https://doc.co/k7o8Hv 
-#### 01_documents : 자습서 내용이 설명되어 있습니다.
-#### 02_iot-raspbian : raspberry pi의 실습 코드가 정리되어 있습니다.
-#### 03_iot-simulator : 장치 없이 실습할 수 있는 코드가 정리되어 있습니다.
-02_iot-raspbian은 img 파일에 내장되어 있으며, 03_iot-simulator는 vm 파일에 내장되어 있습니다.
+## 목차
+### 유무선으로 연결되어 있는 기기에 원격 접속하기
+* 원격 접속
 
-## 4월 1일 실습에 참여하지 않고 혼자 하시는 분을 위한 안내
-GrovePi와 기본 설정 된 이미지를 제공해 드릴 수가 없으므로 "202_IP를-알아내어-내-Raspberry-Pi로-접속하기" 부터 "210_DHT-LCD"까지는 따라하실 수 없습니다.<br />
-대신에 개인적으로 실습 해 보실 수 있도록 "101_준비 사항" 부터  "104_Raspberry-Pi-에-SSH로-접속하기" 부분을 수정하였습니다.<br />
-IoT_Hands-on_vm.ova 파일을  다운로드 받으신 분은 301_실습-vm-가져오기 부분부터 원활하게 진행 하실 수 있습니다.<br />
-IoT_Hands-on_vm이 없으신 분은 직접 컴파일하여 진행하셔야 합니다. 자세한 사항은 "303_App만들기-01-장치등록-및-Key생성" 부분을 참고하시기 바랍니다.
+### 파일과 폴더
+* 폴더 내 위치 이동
+* 폴더 내 파일 목록 보기
+* 파일 만들기
+* 폴더 만들기
+* 파일 삭제하기
+* 폴더 삭제하기
 
-## 문의사항
-https://ask.ubuntu-kr.org 혹은 jang0913@outlook.com 으로 메일주시면 감사하겠습니다.
+### 파일을 편집하고 명령어 실행하기
+* 파일의 내용 보기
+* 텍스트 편집기
+* 파일 및 폴더 이름바꾸기
+* 파일 및 폴더 복사하기
+* 명령어 실행
+* 패키지 설치하기
+* 시스템 저장소 업데이트하기
+* 시스템 패키지 업그레이드하기
 
-## License Information
-create-device-identity / read-d2c-messages / simulated-device source codes belong to [Microsoft.](https://docs.microsoft.com/ko-kr/azure/iot-hub/iot-hub-java-java-getstarted)  <br />
-Xubuntu beblongs to Xubuntu community.<br />
-Virtualbox belongs to Oracle corporation.<br />
-Modified 02_iot-raspbian source codes from [GrovePi](https://github.com/DexterInd/GrovePi)  for easy education.<br />
-Azure IoT course(01_documents) inspired by Youngwook Kim, Microsoft Sr. Technical Evangelist.<br />
-For Visual Studio version, Go to Youngwook Kim's [github.](https://github.com/KoreaEva/IoT) <br />
-Rest of source codes in ova file are MIT License.
+### 기타
+* 시스템 재부팅하기
+* 시스템 종료하기
+
+### 고급
+* 파이프
+* 리다이렉션
+* 프로세스
+* 서비스
